@@ -1,0 +1,11 @@
+tr,th,td{
+    border: 1px solid black ;
+}
+table{
+    margin-left: 150px;
+    font-size: 14px;
+    text-align: center;
+}
+#td{
+    text-align: left;
+}

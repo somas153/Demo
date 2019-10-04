@@ -1,0 +1,10 @@
+<h3>Posts</h3>
+<table>
+<div *ngFor='let a of posts' (click)='comments()'>
+
+<p id="p">{{a.title}}</p>
+<p>Body{{a.body}}</p>
+
+</div>
+
+</table>

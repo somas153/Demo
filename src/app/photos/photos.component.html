@@ -1,0 +1,10 @@
+<h3>Photos</h3>
+<table>
+<div *ngFor='let a of photos ' (click)="tonextPage(data)" >
+<p>{{a.title}}</p>
+<img src="{{a.thumbnailUrl}}">
+
+
+</div>
+
+</table>

@@ -1,0 +1,21 @@
+<h3>Todo Tasks</h3>
+<div>
+    <input type="text" [ngModel]='todo' placeholder="enter the task">
+    <button (click)='add()'> Add</button>
+</div>
+
+<table>
+<tr>
+<th>userId</th>
+<th>Id</th>
+<th>Title</th>
+<th>Completed</th>
+    </tr>
+    <tr *ngFor='let a of tasks'>
+        
+        <td>{{a.userId}}</td>
+        <td>{{a.id}}</td>
+        <td id="td">{{a.title}}</td>
+        <td>{{a.completed}}</td>
+    </tr>
+</table>
